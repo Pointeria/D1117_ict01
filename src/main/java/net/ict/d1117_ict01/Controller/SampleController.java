@@ -64,7 +64,6 @@ public class SampleController {
 
         @GetMapping("ex/ex3")
         public void ex3(Model model) {
-
             model.addAttribute("arr", new String[]{"kkk","eee","yyy"});
         }
 
